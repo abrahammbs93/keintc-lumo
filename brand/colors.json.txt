@@ -1,0 +1,19 @@
+{
+  "white": "#ffffff",
+  "dark": "#27272a",
+  "light": "#e2e2e7",
+  "primary": "#f97316",
+  "blue": "#0ea5e9",
+  "indigo": "#6366f1",
+  "purple": "#a855f7",
+  "pink": "#ec4899",
+  "red": "#ef4444",
+  "yellow": "#fab816",
+  "green": "#22c55e",
+  "teal": "#14b8a6",
+  "cyan": "#06b6d4",
+  "darkblue": "#06425d",
+  "gray": "#52525b",
+  "lightgray": "#a1a1aa",
+  "darkgray": "#3f3f46"
+}

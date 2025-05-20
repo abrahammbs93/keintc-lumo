@@ -1,0 +1,57 @@
+meta:
+  name: KEINTC
+  link: https://posit-dev.github.io/brand-yml
+  description: |
+    Economis Research & Think Tank
+  founded: 2025  
+
+logo:
+  small: brand/fav_KEINTC.svg
+  medium: brand/KEINTC_1.svg
+  large: brand/KEINTC.svg
+
+color:
+  palette:
+    black: "#27272a"
+    white: "#ffffff"
+    dark: "#27272a"
+    light: "#e2e2e7"
+    orange: "#f97316"
+    blue: "#0ea5e9"
+    indigo: "#6366f1"
+    purple: "#a855f7"
+    pink: "#ec4899"
+    red: "#ef4444"
+    yellow: "#fab816"
+    green: "#22c55e"
+    teal: "#14b8a6"
+    cyan: "#06b6d4"
+    darkblue: "#06425d"
+    gray: "#52525b"
+    lightgray: "#a1a1aa"
+    darkgray: "#3f3f46"
+  foreground: black
+  background: white
+  primary: orange
+  success: cyan
+  danger: pink
+
+typography:
+  fonts:
+    - family: MuseoModerno
+      source: google  
+    - family: Inter
+      source: google
+    - family: Cairo
+      source: google
+    - family: IBM Plex Mono
+      source: google
+  base: 
+    family: Inter
+    line-height: 1.25
+    size: 0.85rem
+  headings:
+    family: Cairo
+    weight: 200
+  monospace: 
+    family: IBM Plex Mono

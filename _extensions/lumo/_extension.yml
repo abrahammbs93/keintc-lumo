@@ -1,0 +1,25 @@
+title: Lumo
+author: Alejandro Abraham
+version: 1.0.0
+quarto-required: ">=1.7.0"
+contributes:
+  formats:
+    html:
+      toc: true
+      toc-location: left
+      toc-title: Contents    
+      toc-depth: 3
+      toc-expand: 2
+      anchor-sections: true
+      number-sections: true
+      number-depth: 3
+      html-math-method: katex
+      embed-resources: true
+      self-contained: true
+      include-after-body: "footer.html"
+      template-partials:
+        - title-block.html
+      css: style.css
+      smooth-scroll: true
+      code-annotations: hover
+      title-block-banner: true
