@@ -1,8 +1,10 @@
 ---
-title: "CORE Commodities - Week in Data"
-subtitle: 'Price and Volume monitoring and pattern detection.'
+title: "CORE Commodities Report"
+report_desc: 'Price and Volume monitoring and pattern detection.'
 author: "Alejandro Abraham"
 date: last-modified
+summary: '
+  This week’s CORE Commodities – Week in Data provides a structured overview of key price and volume movements across major commodity markets. Leveraging pattern detection techniques, we highlight emerging signals, anomalies, and recurring structures in market behavior. The report focuses on identifying short-term market dynamics and potential drivers using high-frequency data analytics, offering actionable insights for traders, analysts, and risk managers.'
 format:
   lumo-html: 
     logo: "brand/KEINTC_0.svg"                                     

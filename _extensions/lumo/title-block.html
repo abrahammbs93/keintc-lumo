@@ -7,8 +7,26 @@
     padding-top: 130px;
     padding-bottom: 130px;
     max-width: 752px;
-    margin: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(161, 161, 170, 0.075);
+    border-radius: 20px;                         
+    z-index: 1;                                  
   }
+
+  .report_desc {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: rgb(59, 59, 59);
+    opacity: 0.5;
+  }
+    
   .header-keyword {
     color: rgb(59, 59, 59);
     opacity: 0.5;
@@ -37,6 +55,38 @@
     height: 100%;
     object-fit: cover;
   }
+  .summary-heading {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: rgb(59, 59, 59);
+    opacity: 0.5;
+  }
+  .summary {
+    font-size: 0.825rem;
+    line-height: 1.7;
+    text-align: justify;
+  }
+
+  .read-more-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 18px;
+    background-color: var(--primary-color, #52525b);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .read-more-button:hover {
+    background-color: #f97316;
+  }
+
+
 </style>
 
 <header id="title-block-header" style="position: relative">
@@ -66,8 +116,8 @@
     <img
       src="$logo$"
       alt="logo of company"
-      height="150px"
-      style="margin-bottom: 20px"
+      height=75px"
+      style="margin-bottom: 35px"
     />
     $endif$
 
@@ -78,9 +128,9 @@
 
     <hr />
 
-    <!-- Subtitle -->
-    $if(subtitle)$
-    <p class="subtitle">$subtitle$</p>
+    <!-- report_desc -->
+    $if(report_desc)$
+    <p class="report_desc">$report_desc$</p>
     $endif$
 
     <!-- Author -->
@@ -95,6 +145,14 @@
     </p>
     $endif$
 
+    $if(summary)$
+    <h5 class="summary-heading">Executive Summary</h5>
+    <p class="summary">$summary$</p>
+    $endif$
+
+    <a href="#introduction" class="read-more-button">Read more →</a>
+
+
     <!-- Particle.js script loaded from a CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
 
@@ -102,7 +160,7 @@
     <script>
       particlesJS.load(
         "particles-js",
-        "https://raw.githubusercontent.com/abrahammbs93/keintc-lumo/refs/heads/main/_extensions/lumo/particles.json?token=GHSAT0AAAAAACZFKSYLOR4XKTVECLKTDQJO2BMSRCQ"
+        "https://raw.githubusercontent.com/abrahammbs93/keintc-lumo/refs/heads/main/_extensions/lumo/particles.json"
       );
     </script>
   </div>
