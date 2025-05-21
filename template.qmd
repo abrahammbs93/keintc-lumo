@@ -94,54 +94,8 @@ Text 3
 
 :::::
 
-### Sample of 3
 
-::::: {.grid}
-
-:::: {.g-col-4}
-
-::: {.callout-note appearance="minimal"}
-### Lecture learning goals
-
-1. Motivate the need to use a dashboard framework
-2. Understand the pros and cons with Dash and Shiny
-3. Identify how a Dash/Shiny app is designed conceptually
-4. Run a Dash/Shiny app on a local server
-5. Create input widgets (dropdowns, sliders, etc)
-6. Set up callbacks that update the app based on user input
-7. Create an Altair/ggplot charts in dashboards
-8. Update charts via input widgets
-
-:::
-    
-::::
-
-:::: {.g-col-4}
-
-::: {.callout-note collapse="true" appearance="simple"}
-
-## Required activities
-
-- There are several optional readings linked throughout these notes where you can learn more about Dash and Shiny.
-
-*You can read these either before or after class*               
-
-:::
-
-::::
-
-:::: {.g-col-4}
-
-::: {.callout-tip appearance="simple"}
-
-## Required 
-
-- There are several optional readings linked throughout these notes where you can learn more about Dash and Shiny.
-
-*You can read these either before or after class*               
-
-:::
-
-::::
-
-:::::
+```{r}
+#| column: screen-inset-shaded
+4+4
+```
