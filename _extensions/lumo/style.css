@@ -25,16 +25,23 @@ h2 {
   font-weight: 600;
   letter-spacing: -0.02em;
   transition: color 0.2s ease;
+  color: #64646c;
 }
 h2:first-of-type {
   margin-top: 0;
 }
+
 h3 {
   margin-top: 2rem;
   margin-block-start: 20px;
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.02em;
+  color: #64646c;
+}
+
+.header-section-number {
+  color: #3f3f46;
 }
 
 /* ------------------------------------------- Text ----------------- */
@@ -53,7 +60,6 @@ a {
 
 /* ------------------------------------------- Lists ----------------- */
 ul {
-  margin: 1.5rem 0;
   margin-left: 1.5rem;
   list-style-type: disc;
 }
@@ -66,15 +72,15 @@ ul > li {
   color: var(--primary-color);
   background-color: white;
   border-color: var(--primary-color);
-  border-radius: 4px;
+  border-radius: 10px;
 }
 .nav-pills .nav-link.active {
   color: white;
   background-color: var(--primary-color);
 }
 .nav-pills .nav-link {
-  padding: 5px;
-  margin-right: 4px;
+  padding: 10px 18px;
+  margin-right: 8px;
 }
 ul.nav.nav-tabs {
   margin: 0px;
@@ -104,8 +110,8 @@ ul.nav.nav-tabs {
 
 /* ------------------------------------------- Horizontal separator ----------------- */
 hr {
-  margin-top: 23px;
-  margin-bottom: 23px;
+  margin-top: 40px;
+  margin-bottom: 30px;
   border: 0;
   border-top: 1px solid black;
   width: 0;
@@ -133,17 +139,31 @@ hr {
 /* ------------------------------------------- DT table: smaller font ----------------- */
 table.dataTable tbody th,
 table.dataTable tbody td {
-  padding: 6px 10px;
+  padding: 10px 16px;
   font-size: 12px;
 }
 
 /* ------------------------------------------- Callout ----------------- */
 div.callout.callout {
-  border: none;
-  padding: 0.4em 0.7em;
-  border-left: var(--primary-color) 4px solid;
-  background-color: color-mix(in srgb, var(--primary-color), transparent 95%);
-  border-radius: 0px;
+  border: 0.1px solid rgb(232, 232, 232);
+  padding: 0.7em 0.7em;
+  border-left: rgb(219, 218, 218) 4px solid;
+  background-color: white;
+}
+
+.callout-title-container {
+  font-weight: 600;
+  color: #3b3b3b;
+  font-size: 1.15rem;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin-bottom: 25px;
+}
+
+.callout-body {
+  font-size: .725rem;
+  font-weight: 400;
+  color: #64646c;
 }
 
 button {
@@ -151,12 +171,17 @@ button {
   background-color: white;
   border: var(--primary-color) 1px solid;
   border-radius: 1px;
+  padding: 16px;
 }
 
 .grey-section {
   background-color: #f8f9fa;
   padding-top: 40px;
   padding-bottom: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.g-col-6, .g-col-4, .g-col-3, .g-col-2 {
+  display: flex
 }

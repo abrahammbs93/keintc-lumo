@@ -27,8 +27,8 @@ color:
     teal: "#14b8a6"
     cyan: "#06b6d4"
     darkblue: "#06425d"
-    gray: "#52525b"
-    lightgray: "#a1a1aa"
+    gray: "#a1a1aa"
+    lightgray: "#f8f9fa"
     darkgray: "#3f3f46"
   foreground: black
   background: white
