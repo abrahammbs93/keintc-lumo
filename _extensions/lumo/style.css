@@ -169,11 +169,11 @@ table.dataTable tbody td {
 div.callout.callout {
   padding: 0.7em 0.7em;
   border-left: rgb(219, 218, 218) 4px solid;
-  border-right: none;
-  border-top: none;
-  border-bottom: none;
+  border-right: rgb(219, 218, 218) 0.5px solid;
+  border-top: rgb(219, 218, 218) 0.5px solid;
+  border-bottom: rgb(219, 218, 218) 0.5px solid;
   background-color: white;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1); */
   border-radius: 0.75rem, 0.75rem;
 }
 
